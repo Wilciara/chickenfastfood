@@ -57,6 +57,7 @@ module.exports = {
         cartBg: "#282a2c",
         cartItem: "#2e3033",
         cartTotal: "#343739",
+        bggreen: "rgb(22 101 52)"
       },
     },
   },
