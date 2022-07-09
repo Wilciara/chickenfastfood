@@ -1,9 +1,19 @@
 
+***
+
+# <p align="center">🎯 [Chicken Fast Food](https://chickenfastfood.vercel.app/)</p>
+
+***
+
+
 <p align="center">
   <img src="https://github.com/deviobr/code-patterns/blob/main/images/devio.webp?raw=true" />
 </p>
 
 <h1 align="center">PDV – Fast Food / Front-end</h1>
+
+
+
 
 ## Descrição 👾
 Um restaurante precisa poder registrar suas vendas de forma fácil e rápida, este trabalha com preparo de comidas rápidas e o método atual por comanda deixa o processo como um todo mais lento. O restaurante gostaria de ter um ambiente intuitivo listando os produtos mais vendidos e possibilitando a fácil inserção desses no checkout, ele também gostaria de um visual simples, porém moderno.
@@ -43,7 +53,10 @@ Um restaurante precisa poder registrar suas vendas de forma fácil e rápida, es
 
 # Demo:
 
-https://app.usebubbles.com/p4bioMvYi17VRCgQL5n2A5/my-video-recording  
+  https://app.usebubbles.com/p4bioMvYi17VRCgQL5n2A5/my-video-recording
+
+https://app.usebubbles.com/p4bioMvYi17VRCgQL5n2A5/my-video-recording
+
 ***
 #  💚 Site Preview  💻
 ***
@@ -51,13 +64,13 @@ https://app.usebubbles.com/p4bioMvYi17VRCgQL5n2A5/my-video-recording
 
 ***
  
-#   🚀 # Check the Site 🎯
+#   🚀  Check the [Site](https://chickenfastfood.vercel.app/) 🎯
 
 ***
-🎯
+## 🎯 Click [Chicken FastFood](https://chickenfastfood.vercel.app/)
 
 ***
-🧩# Backstage
+# 🧩 Backstage
 
 
 ***
