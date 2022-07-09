@@ -55,6 +55,9 @@ Um restaurante precisa poder registrar suas vendas de forma fácil e rápida, es
 
   https://app.usebubbles.com/p4bioMvYi17VRCgQL5n2A5/my-video-recording
 
+  https://www.loom.com/share/1db8a8c4f4604c9886208bfc785f61f3
+
+
 https://app.usebubbles.com/p4bioMvYi17VRCgQL5n2A5/my-video-recording
 
 ***
@@ -71,6 +74,10 @@ https://app.usebubbles.com/p4bioMvYi17VRCgQL5n2A5/my-video-recording
 
 ***
 # 🧩 Backstage
+
+
+https://user-images.githubusercontent.com/94201226/178120599-7c502942-80ae-457d-9049-538f2aa1240a.mp4
+
 
 
 ***
