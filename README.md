@@ -58,7 +58,7 @@ Um restaurante precisa poder registrar suas vendas de forma fácil e rápida, es
   https://www.loom.com/share/1db8a8c4f4604c9886208bfc785f61f3
 
 
-https://app.usebubbles.com/p4bioMvYi17VRCgQL5n2A5/my-video-recording
+⚠️Site em manutenção, por  algum motivo os as imagens  do cardápio pararam de  baixar e os botões(scrolling e os do Menu)  não estã  funcionando. Problemas na busca de  dados, os boes menu não carregam o cardapio selecionado e a instant search não mostra  a busca. ⚠️
 
 ***
 #  💚 Site Preview  💻
