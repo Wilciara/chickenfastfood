@@ -6,17 +6,19 @@ import { categories } from "./dataCategory";
 
 
 
+
+
 const MenuContainer = () => {
 
   const [filter, setFilter] = useState("chicken");
 
-  /*const [{ foodItems }, dispatch] = useStateValue();*/
+  //const [{ foodItems }, dispatch] = useStateValue();
 
   useEffect(() => {}, [filter]);
 
   return (
 
-    <section className="w-full my-1" id="menu">
+    <section className="w-full min-w-fullmy-1"  id="menu">
     
     <div className="w-full flex items-center justify-start lg:justify-center gap-8 py-16 
     overflow-x-scroll scrollbar-none">
@@ -34,12 +36,8 @@ const MenuContainer = () => {
                 onClick={() => setFilter(category.urlParamName)}
               >
                 <div
-                  className={`w-10 h-10 rounded-full shadow-lg ${
-                    filter === category.urlParamName
-                      ? "bg-white"
-                      : "bg-green-600"
-                  } group-hover:bg-white flex items-center justify-center`}
-                >
+                  className={`w-10 h-10 rounded-full shadow-lg 
+                  ${filter === category.urlParamName ? "bg-white" : "bg-green-600"} group-hover:bg-white flex items-center justify-center`}>
                   <IoFastFood
                     className={`${
                       filter === category.urlParamName
@@ -60,8 +58,11 @@ const MenuContainer = () => {
               </motion.div>
             ))}        
     </div>
-    <div className="w-full">
-          {/**RowContainer?* */}
+    <div className="bg-blue-500">
+        menu
+        </div>
+        <div className="bg-blue-500">MenuContainer
+         
         </div>
       
     </section>

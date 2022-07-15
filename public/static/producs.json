@@ -11,7 +11,7 @@
   {
     "id": "2",
     "name": "W-burger",
-    "decp": "Fresh",
+    "desc": "Fresh",
     "price": "10.25",
     "imageSrc": "https://i.pinimg.com/736x/96/1d/74/961d74148ad5ab689c75d84c19dc8897.jpg"
   },
@@ -35,7 +35,6 @@
     "desc": "Perfect",
     "price": "5.25",
     "imageSrc": "https://i.pinimg.com/736x/96/1d/74/961d74148ad5ab689c75d84c19dc8897.jpg"
-  }
-  
+  }  
 ]
 

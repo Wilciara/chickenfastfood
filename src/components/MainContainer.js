@@ -17,7 +17,7 @@ const MainContainer = () => {
   const carousel = useRef(null);
 
 
-  {/**foco no reload */}
+  /**focus no reload */
 
   useEffect(() =>{
     if (inputRef) inputRef.current.focus();
@@ -25,14 +25,14 @@ const MainContainer = () => {
 
     
   
-  {/*  ****event search - json uncaught [0]**** */}
+  /*  ****event search - json uncaught [0]**** */
 
   const handleInputChange = (e) => {
     e.preventDefault();
     const {value} = e.target
     if (!value) return;
 
-    const url = `http://localhost:3001/static/producs.json${value}`;
+    const url = `http://localhost:3001/static/producs.json ${value}`;
 
     fetch(url)
     .then((response) => response.json())
@@ -42,7 +42,7 @@ const MainContainer = () => {
 
    console.log('Data', data); 
 
-      {/*scrolling  */}
+   //scrolling
 
 
 
@@ -60,8 +60,8 @@ const MainContainer = () => {
 
   return (
 
-    <div className="py-10 w-screen h-full grid grid-rows-1 gap-1 bg-white">
-      <div className='w-screen py-20 flex-1 flex items-start m:items-center justify-center gap-10'>
+    <div className="w-screen min-w-full h-full grid grid-rows-1 bg-white">
+      <div className='w-full py-20 flex-1 flex items-start justify-center gap-10'>
         <p className="text-2xl text-gray-800 font-semibold">
         Seja bem vindo!
 
@@ -84,9 +84,9 @@ const MainContainer = () => {
           <p className='text-gray-700 text-lg py-4' >Navegue por categoria</p>
           <MenuContainer />
 
-        <section className="w-full my-6">
+        <section className="w-full h-auto flex flex-row items-start justify-center my-6" ref={carousel}>
           
-          <div className="w-full flex items-center justify-between">
+          <div className="w-full flex  flex-row items-center justify-between">
             <p className="text-2xl font-semibold capitalize text-headingColor relative 
             before:absolute before:rounded-lg before:content before:w-32 before:h-1 before:-bottom-2 before:left-0 before:bg-gradient-to-tr
             from-green-700 to-green-900 transition-all ease-in-out duration-100">
@@ -97,20 +97,23 @@ const MainContainer = () => {
               <div             
                 className="w-8 h-8 rounded-lg bg-green-700 hover:bg-green-900 cursor-pointer  hover:shadow-lg flex items-center justify-center"
                 onClick={handleLeftClick}>
-                <MdChevronLeft className="text-lg text-white" />
+                <MdChevronLeft className="text-lg text-white" onClick={handleLeftClick} />
             </div>
 
             <div className="w-8 h-8 rounded-lg bg-green-700 hover:bg-green-900 cursor-pointer transition-all duration-100 ease-in-out 
             hover:shadow-lg flex items-center justify-center" onClick={handleRightClick}>
-              <MdChevronRight className="text-lg text-white" />
+              <MdChevronRight className="text-lg text-white" onClick={handleRightClick} />
+              
             </div>
+           
 
           </div>
-        </div>
-              {/*check the flag. Maybe remove it. */}
-
-          <RowContainer flag={true} />
+        </div>            
+        
         </section>
+          <div className='flex flex-row items-center justify-center bg-white' ref={carousel}> <RowContainer />
+            
+            </div>
       </div>
                   
     </div>

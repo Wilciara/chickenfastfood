@@ -1,20 +1,24 @@
 import React from 'react';
 import Logo from '../images/logo.png';
 import{FaShoppingBasket} from 'react-icons/fa';
-import{FaUser} from 'react-icons/fa'; 
+import{FaUser} from 'react-icons/fa';
+import { Link } from "react-router-dom";
 
 
 export const Header = () => {
+
+
+  
   return (
-    <div className=" fixed z-50 w-screen w-screen bg-green-900 p-6 px-16">
+    <div className=" fixed z-50 w-screen bg-green-900 p-6 px-16">
       
       {/*desktop & tablet */}
       
       <div className="hidden md:flex w-full">
-        <div className="flex items-center gap-2">
+        <Link to={"/"} className="flex items-center gap-2">
           <img src={Logo} className="w-10 object-cover"c alt="logo" />
           <p className="text-primary text-xl font-bold">fastfood</p>
-        </div>
+        </Link>
 
         <ul 
         className="text-primary flex items-center gap-8 ml-auto">
@@ -33,13 +37,12 @@ export const Header = () => {
           <li className="text-base text-primary hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer">
             Compra
           </li>
-          <li className="text-base text-primary hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer">
-            Login
-          </li>          
+                    
         </ul>
         <div 
         className="relative flex items-center justify-center">
           <FaUser className="text-primary text-2xl ml-20 cursor-pointer" />
+         
         </div>
 
         <div 
