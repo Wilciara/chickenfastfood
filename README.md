@@ -78,6 +78,7 @@ Um restaurante precisa poder registrar suas vendas de forma fácil e rápida, es
 
 https://user-images.githubusercontent.com/94201226/178120599-7c502942-80ae-457d-9049-538f2aa1240a.mp4
 
+https://www.loom.com/share/6f51c78250b34fac8277444515193cba
 
 
 ***
